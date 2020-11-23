@@ -33,8 +33,9 @@
      }, [])
  
      return (
-         <div>
-             <h1>Hey my homepage</h1>
+         <div >
+             <div className="container">
+             {/* <h1>Hey my homepage</h1> */}
  
              {
                  posts.map((post)=> {
@@ -44,6 +45,7 @@
                      </div>)
                  })
              }
+             </div>
          </div>
      )
  }
